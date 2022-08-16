@@ -1,0 +1,46 @@
+/*Make any img element responsive*/
+img {
+    max-width:100%;
+  }
+  /*Set a fixed size for width and height and in an absolute position*/
+  #yesButton{
+    background: green;
+    width: 50px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  #noButton{
+    background: red;
+    width: 50px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  /*Style for the Score container*/
+  .scoreContainer{
+    background-color: white;
+    width: 75px;
+    height:10%;
+    color: black;
+    top:5%;
+    right:5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display:flex;
+    position:fixed;
+    flex-direction:column;
+    align-items:center;
+  }
+  #score-text{
+    font-size:1.5em;  
+  }
+  #wordCount{
+    margin-top: 10px;
+    font-size: 1.0em;  
+    color: black;
+  }
+
+  p {
+    font-size: 16pt;
+  }
