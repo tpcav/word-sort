@@ -1,46 +1,71 @@
 /*Make any img element responsive*/
 img {
     max-width:100%;
-  }
-  /*Set a fixed size for width and height and in an absolute position*/
-  #yesButton{
-    background: green;
-    width: 50px;
-    color: white;
-    border-radius: 20px;
-  }
-  
-  #noButton{
-    background: red;
-    width: 50px;
-    color: white;
-    border-radius: 20px;
-  }
-  
-  /*Style for the Score container*/
-  .scoreContainer{
-    background-color: white;
-    width: 75px;
-    height:10%;
-    color: black;
-    top:5%;
-    right:5%;
-    border: 2px solid black;
-    border-radius: 10px;
-    display:flex;
-    position:fixed;
-    flex-direction:column;
-    align-items:center;
-  }
-  #score-text{
-    font-size:1.5em;  
-  }
-  #wordCount{
-    margin-top: 10px;
-    font-size: 1.0em;  
-    color: black;
-  }
+}
+/*Set a fixed size for width and height and in an absolute position*/
+#yesButton{
+  background: green;
+  width: 50px;
+  color: white;
+  border-radius: 20px;
+}
 
-  p {
-    font-size: 16pt;
-  }
+.container {
+  margin: auto;
+  width: 60%;
+  border: 1x solid #000000;
+  padding: 10px;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#noButton{
+  background: red;
+  width: 50px;
+  color: white;
+  border-radius: 20px;
+}
+
+/*Style for the Score container*/
+.scoreContainer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 75px;
+  height:10%;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.wordUnderline {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#score-text{
+  font-size:1.5em;  
+}
+#wordCount{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 1.0em;  
+  color: black;
+}
+
+p {
+  font-size: 16pt;
+  text-align: center;
+}

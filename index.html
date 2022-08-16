@@ -7,26 +7,34 @@
     <title>Word Sort</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body> 
+<body>
+
     <div class="container">
-        <h1>Word Sort</h1>
-        <hr>
-        <p id="wordList"></p>
-        <p id="question"></p>
-        
-        <p id="firstWord"></p>
-        <button id="yesButton">Yes</button>
-        <button id="noButton">No</button>
-        
-        <hr>
-        <p id="yesList">Yes list: </p>
-        <p id="noList">No list: </p>
-        <p id="emptyList"></p>
-        
-        <div class='scoreContainer'>
-            <div id="score-text">Count</div>
-            <div id="wordCount"></div>
+        <div class="center">
+            <h1>Word Sort</h1>
+            <hr>
+            <p id="wordList"></p>
+            <p id="question"></p>
+            
+            <p id="firstWord"></p>
+            <hr class="wordUnderline">
+            <div class="buttons">
+                <button id="yesButton">Yes</button>
+                <button id="noButton">No</button>
+            </div>
+            
+            <center>
+                <div class='scoreContainer'>
+                    <div id="score-text">Count</div>
+                    <div id="wordCount"></div>
+                </div>
+            </center>
+            <hr>
+            <p id="yesList">Known</p>
+            <p id="noList">Unknown</p>
+            <p id="emptyList"></p>
         </div>
+    
     </div>
     <script src="script.js"></script>
 </body>
