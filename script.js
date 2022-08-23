@@ -1,4 +1,6 @@
-const list = ['apple','baglys','cat']
+const list = [    'ache', 'acid', 'acre', 'aide', 'alan', 'alec', 'ally', 'alto', 'andy',
+'anna', 'apex', 'arch', 'area', 'aria', 'army', 'arse', 'atom', 'aunt',
+'aura', 'auto', 'axis', 'axle']
 
 // First word in list
 first_word = list[0]
@@ -46,17 +48,11 @@ const yesAnswer = () => {
    emptyList.innerHTML = ("The list is empty.");
   };
   
-  if (list === "undefined") {
-   const emptyList = document.querySelector("#emptyList");
-   emptyList.innerHTML = ("The list is empty.");
-  };
-  
   const yesLists = document.querySelector("#yesList");
   yesLists.innerHTML = ("Unknown Words: ", yesList);
   
   const yesAnswer = document.querySelector("#wordCount");
   yesAnswer.innerHTML = (list.length);
-  
 };
 
 // Adds no word to new list, removes from old list
@@ -67,11 +63,6 @@ const noAnswer = () => {
   first_word = list[0]
   const firstWord = document.querySelector("#firstWord");
   firstWord.innerHTML = (first_word);
-  
-  if (list === "undefined") {
-   const emptyList = document.querySelector("#emptyList");
-   emptyList.innerHTML = ("The list is empty.");
-  };
   
   if (list.length === 0) {
     const emptyList = document.querySelector("#wordList");
@@ -84,22 +75,3 @@ const noAnswer = () => {
   const noAnswer = document.querySelector("#wordCount");
   noAnswer.innerHTML = (list.length);
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-

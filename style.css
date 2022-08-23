@@ -1,49 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /*Make any img element responsive*/
 img {
     max-width:100%;
 }
 /*Set a fixed size for width and height and in an absolute position*/
 #yesButton{
-  background: green;
-  width: 50px;
+  background: rgb(67, 178, 67);
+  width: 100px;
+  height: 50px;
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  border-style: none;
+  margin: 10px;
 }
 
 .container {
   margin: auto;
-  width: 300px;
+  width: 350px;
   border: 1x solid #000000;
+  border-radius: 25px;
   padding: 10px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .center {
   margin: auto;
-  border: 1px solid #000000;
+  border-radius: 25px;
   padding: 10px;
+  background-color: rgb(60, 60, 60);
 }
 
 .buttons {
   text-align: center;
+  font-family: 'Roboto';
 }
 
 #noButton{
-  background: red;
-  width: 50px;
+  background: rgb(223, 82, 82);
+  width: 100px;
+  height: 50px;
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
+  border-style: none;
+  font-family: 'Roboto';
+  margin: 10px;
 }
 
 /*Style for the Score container*/
 .scoreContainer{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: white;
-  width: 75px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: rgb(54, 130, 180);
+  width: 100px;
   height:10%;
-  color: black;
-  border: 2px solid black;
+  color: white;
   border-radius: 10px;
   display:flex;
   flex-direction:column;
@@ -52,7 +65,8 @@ img {
 
 .wordUnderline {
   width: 100px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #score-text{
@@ -62,10 +76,26 @@ img {
   margin-top: 8px;
   margin-bottom: 10px;
   font-size: 1.0em;  
-  color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 p {
   font-size: 16pt;
   text-align: center;
+  margin-bottom: 10px;
+}
+
+html {
+  font-family: 'Roboto';
+  color: white;
+  background-color: rgb(28, 28, 28);
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 70%;
 }
